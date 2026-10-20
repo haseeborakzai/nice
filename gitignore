@@ -1,0 +1,23 @@
+# Secrets - NEVER upload these to GitHub
+.streamlit/secrets.toml
+.env
+*.env
+
+# Local database with private prayer records
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
